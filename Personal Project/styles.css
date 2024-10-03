@@ -1,0 +1,107 @@
+body {
+    margin: 0;
+    font-family: "Sono", sans-serif;
+}
+.top-container {
+    background-color:lightblue ;
+    height: 400px; 
+    display:  flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: large;
+}
+h3 {
+    color: #276b81;
+}
+.first {
+    margin: 0;
+    color: #276b81;
+}
+.hi {
+    margin-right: 265px;
+    color: #e19e88;
+}
+.programmer {
+    margin-left: 130px;
+    margin-top: -20px;
+}
+.vl {
+    border-left: 3px solid #e19e88;
+    height: 50px;
+}
+.profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 100px;
+}
+.ayomikun {
+    border-radius: 50%;
+    height: 200px;
+    margin-top: 50px;
+}
+.next {
+    color: #276b81;
+}
+.me {
+    font-size: larger;
+    width: 30%;
+}
+hr {
+    width: 4%;
+    border-style: dotted dotted none;
+    border-color: cadetblue;
+    border-width: 6px 6px 6px;
+
+}
+.skills {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 100px;
+}
+.skil {
+    margin: 100px;
+    color: #276b81;
+}
+.parent {
+    display: grid;
+    grid-template-columns: 0.5fr 1fr;
+    grid-template-rows: repeat(1, 1fr);
+    width: 50%;
+    text-align: left;
+}
+.baller {
+    margin-right: 50px;
+    margin-top: 20px;
+}
+.touch {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.resume {
+    color: #276b81;
+    margin: 100px;
+}
+a {
+    text-decoration: none;
+    color: #276b81;
+}
+.bottom-container {
+    background-color: lightblue;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.foot {
+    text-align: center;
+}
+.copyright {
+    color: white;
+}
